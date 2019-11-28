@@ -13,4 +13,12 @@ This repoisitory contains Web Application components of the project built in Jav
 
 ## Project Structure - Main Components
 
-### AlphaVantage\RequestFX & RequestCrpy
+### components/Asset.js & components/Crypto.js 
+These classes provide each instance of the tiles that make up the heatmap of financial assets. 
+They are styled in style/Wrapper.js
+
+## CandleStickChart.js
+Requests the Time Series Data and returns the functioning candlestick Chart. 
+
+## Home.js
+Requests Asset data from API and presents the Information in the Heatmap and CandleStick chart with the use of the above 3 classes. 
