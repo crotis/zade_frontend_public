@@ -9,20 +9,6 @@ class Asset extends Component {
             items: []
         }
     }
-
-    getTimeSeries(){
-        fetch('https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=NZDUSD&interval=15min&apikey=PK8MU25UFH60FM8G', {
-          headers : { 
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'}})
-        .then( res => res.json())
-        .then(json => {
-          this.setState({
-            items: json['Time Series (15min)']
-          })
-        });
-        console.log(this.state.items)
-    }
     
     render() {
         return (
