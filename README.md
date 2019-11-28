@@ -1,5 +1,5 @@
 # zade_frontend_public
-Backend server for Zade (Financial Web Application)
+Web Application for Zade (Financial Web Application)
 
 **NOTE: I have a private repository fit for building the project, this repository is availible to demonstraight the code and is missing
 API access keys and other key features**
